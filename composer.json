@@ -1,14 +1,14 @@
 {
-    "name": "lob/lob-php",
+    "name": "blackcart/lob-php",
     "type": "library",
-    "description": "Lob.com API PHP wrapper.",
+    "description": "3.5.6 fork of lob/lob-php to include International Autocompletions",
     "keywords": ["lob", "printing", "api", "rest", "web service", "wrapper"],
     "homepage": "https://www.lob.com/",
     "license": "MIT",
     "authors": [{
-        "name": "Lob",
-        "email": "support@lob.com",
-        "homepage": "https://www.lob.com"
+        "name": "Blackcart",
+        "email": "support@blackcart.com",
+        "homepage": "https://www.blackcart.com"
     }],
     "require": {
         "php": ">=7.4.0",

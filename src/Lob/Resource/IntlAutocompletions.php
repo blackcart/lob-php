@@ -5,13 +5,13 @@ namespace Lob\Resource;
 use Lob\ResourceBase;
 use BadMethodCallException;
 
-class USAutocompletions extends ResourceBase
+class IntlAutocompletions extends ResourceBase
 {
     public function autocomplete(array $data, ?array $options = [])
     {
         return $this->sendRequest(
             'POST',
-            'us_autocompletions',
+            'intl_autocompletions',
             $options,
             $data
         );

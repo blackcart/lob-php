@@ -19,6 +19,7 @@ use Lob\Resource\USAutocompletions;
 use Lob\Resource\USReverseGeocodeLookups;
 use Lob\Resource\USVerifications;
 use Lob\Resource\USZipLookups;
+use Lob\Resource\IntlAutocompletions;
 
 class Lob
 {
@@ -138,5 +139,10 @@ class Lob
     public function usZipLookups()
     {
       return new USZipLookups($this);
+    }
+
+    public function intlAutocompletions()
+    {
+        return new IntlAutocompletions($this);
     }
 }
